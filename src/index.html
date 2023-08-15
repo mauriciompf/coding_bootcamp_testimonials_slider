@@ -15,15 +15,15 @@
   <main class="h-full overflow-x-hidden">
     <div class="h-full md:flex grid">
       <div class="md:flex md:w-[50%] flex-col  justify-center relative md:text-left text-center text-base text-pri-dark-blue">
-        <img class="md:-translate-y-[5rem] md:w-[120px] absolute left-1/2 -translate-x-1/2 w-[70px]" src="./assets/images/pattern-quotes.svg" alt="">
+        <img class="md:-translate-y-[8rem] md:w-[120px] absolute left-1/2 -translate-x-1/2 w-[70px]" src="./assets/images/pattern-quotes.svg" alt="">
         <img src="./assets/images/pattern-curve.svg" class="md:w-full absolute bottom-0 -z-10 " alt="">
         <div class="md:ml-[11rem] md:-mr-[9rem]">
-          <p class="md:text-[32px] md:leading-[40px] md:w-full py-4 mx-auto w-[80%]">
+          <p data-testimonial class="text-pri-dark-blue md:text-[32px] md:leading-[40px] md:w-full md:py-6 py-4 mx-auto w-[80%]">
             “ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”
           </p>
           <p class="md:block grid">
-            <span class="font-bold">Tanya Sinclair</span>
-            <span class="text-pri-grayish-blue">UX Engineer</span>
+            <span data-name class="font-bold">Tanya Sinclair</span>
+            <span data-role class="text-pri-grayish-blue">UX Engineer</span>
           </p>
         </div>
       </div>
@@ -36,14 +36,14 @@
           <span>Junior Front-end Developer</span>
         </p>
       </div> -->
-      <div class="md:w-1/2 self-center mx-auto w-[90%] relative row-start-1 my-4 before:content-[''] before:bg-[url('../images/pattern-bg.svg')] before:bg-contain before:absolute before:w-full before:h-full -z-10 before:bg-no-repeat">
-        <img class="md:mr-[9rem] md:py-14 mx-auto w-[70%] py-8 relative" src="./assets/images/image-tanya.jpg" alt="Tanya">
-        <div class="absolute rounded-[2rem] bottom-6 -translate-x-1/2 left-1/2 bg-white flex cursor-pointer">
-          <button class="p-3">
-            <img class="w-[10px] aspect-square" src="./assets/images/icon-prev.svg" alt="">
+      <div class="md:w-1/2 self-center mx-auto w-[90%] relative row-start-1 my-4 before:content-[''] before:bg-[url('../images/pattern-bg.svg')] before:bg-contain before:absolute before:w-full before:h-full before:-z-10 before:bg-no-repeat">
+        <img data-image class="-z-10 shadow-xl md:mr-[9rem] md:my-14 mx-auto w-[70%] my-8 relative" src="./assets/images/image-tanya.jpg" alt="">
+        <div class="shadow-xl md:bottom-[2.5rem] md:left-[11rem] absolute rounded-[2rem] bottom-6 -translate-x-1/2 left-1/2 bg-white flex cursor-pointer">
+          <button data-prev aria-label="Prev" class="md:px-4 p-3">
+            <img class="md:w-full md:aspect-auto w-[10px] aspect-square" src="./assets/images/icon-prev.svg" alt="">
           </button>
-          <button class="p-3">
-            <img class="w-[10px] aspect-square" src="./assets/images/icon-next.svg" alt="">
+          <button data-next aria-label="Next" class="md:px-4 p-3">
+            <img class="md:w-full md:aspect-auto w-[10px] aspect-square" src="./assets/images/icon-next.svg" alt="">
           </button>
         </div>
         <!-- <img class="hidden" src="./assets/images/image-john.jpg" alt="John"> -->
